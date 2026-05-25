@@ -19,5 +19,10 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sims/', include("Day_1.urls"))
+    # path('sims/', include("Day_1.urls")),
+    # path('login/', include("Day_1.urls")),
+    # path('<str:name>/', include("Day_1.urls")),
+    # path('isItChristmas/', include("Day_1.urls")),
+    path('newyear/', include("newyear.urls")),
+    
 ]
