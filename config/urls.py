@@ -23,6 +23,7 @@ urlpatterns = [
     # path('login/', include("Day_1.urls")),
     # path('<str:name>/', include("Day_1.urls")),
     # path('isItChristmas/', include("Day_1.urls")),
+    path('tasks/', include('tasks.urls')),
     path('newyear/', include("newyear.urls")),
     
 ]
